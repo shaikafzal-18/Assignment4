@@ -10,5 +10,6 @@ with open ("output.txt", "at") as fh:
 print("\n")
 with open ("output.txt", "rt") as fh:
     data = fh.read()
+    print("Final content of output.txt: ")
     print(data)
 fh.close()
